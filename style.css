@@ -63,7 +63,7 @@ nav a:first-child {
     color: blue;
 }
 
-nav a:before {
+nav a:after {
     content: "";
     position: absolute;
     top: 110%;
@@ -74,7 +74,7 @@ nav a:before {
     transition: all 0.3s linear;
 }
 
-nav a:hover:before {
+nav a:hover:after {
     width: 100%;
 }
 
@@ -238,7 +238,7 @@ main {
     background-image: none;
 }
 
-/* Social Page */
+/* Contact Page */
 
 .sc1 {
     width: 100%;
@@ -246,9 +246,181 @@ main {
     background-image: linear-gradient(to right, #fff 80%, #f87ae3 20%);
 }
 
-/* Contact Page */
+.social-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 4rem;
+}
 
+.linked-in{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
 
+.social-page-wrapper div > a {
+    justify-content: center;
+    text-align: center;
+    color: black;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.linked-in .btns {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;justify-content: center;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 25px;margin-bottom: 25px;
+    color: #fff;
+    letter-spacing: 0;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%);
+    border: double 2px transparent;
+    box-shadow: 0 30px 30px rgba(118, 85, 225, 0.3);
+}
+.git-hub .btns {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;justify-content: center;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 25px;margin-bottom: 25px;
+    color: #fff;
+    letter-spacing: 0;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%);
+    border: double 2px transparent;
+    box-shadow: 0 30px 30px rgba(118, 85, 225, 0.3);
+}
+.facebook .btns {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;justify-content: center;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 25px;margin-bottom: 25px;
+    color: #fff;
+    letter-spacing: 0;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%);
+    border: double 2px transparent;
+    box-shadow: 0 30px 30px rgba(118, 85, 225, 0.3);
+}
+.instagram .btns {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;justify-content: center;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin-left:70px;
+    margin-top: 25px;margin-bottom: 25px;
+    color: #fff;
+    letter-spacing: 0;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%);
+    border: double 2px transparent;
+    box-shadow: 0 30px 30px rgba(118, 85, 225, 0.3);
+}
+
+.linked-in .btns:hover {
+    border: 2px solid #4458dc;
+    color: #222;
+    background-color: #fff;
+    box-shadow: none;
+    background-image: none;
+}
+.git-hub .btns:hover {
+    border: 2px solid #4458dc;
+    color: #222;
+    background-color: #fff;
+    box-shadow: none;
+    background-image: none;
+}
+.facebook .btns:hover {
+    border: 2px solid #4458dc;
+    color: #222;
+    background-color: #fff;
+    box-shadow: none;
+    background-image: none;
+}
+.instagram .btns:hover {
+    border: 2px solid #4458dc;
+    color: #222;
+    background-color: #fff;
+    box-shadow: none;
+    background-image: none;
+}
+
+.git-hub {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.facebook {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.instagram {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.social-page-wrapper div > img {
+    height: 6rem;
+    width: 6rem;
+}
+
+.sc2 {
+    height: 80vh;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: left;
+}
 
 /* Gallery Page */
+
+.image-slide {
+    width: 60%;
+    height: 80vh;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    background-image: url('P3.jpg');
+    background-size: 100% 100%;
+    animation: picture-change 20s infinite linear;
+}
+
+@keyframes picture-change {
+    0%{
+        background-image: url('P3.jpg');
+    }
+    33%{
+        background-image: url('P4.jpg');
+    }
+    67%{
+        background-image: url('P5.jpg');
+    }
+}
 
