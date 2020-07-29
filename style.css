@@ -388,6 +388,9 @@ main {
     text-align: center;
     color: #000;
     font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    word-spacing: 0.25rem;
 }
 
 
