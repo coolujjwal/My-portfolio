@@ -22,29 +22,30 @@ header {
 }
 
 .logo {
-    width: 40%;
+    width: 40vw;
     color: #fff;
     background-image: linear-gradient(#8d98e3 40%, #854fee 60%);
-    padding-left: 100px;
+    padding-left: 4rem;
     box-sizing: border-box;
+    border-radius: 1rem;
 }
 
 .logo h1{
     text-transform: uppercase;
     font-size: 1.6rem;
-    animation: idharudhar 2.5s linear infinite;
+    animation: idharudhar 1.5s linear infinite;
     animation-direction: alternate;
 }
 
 @keyframes idharudhar {
     from{
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 3rem;
+        padding-right: 10rem;
     }
 }
 
 nav {
-    width: 60%;
+    width: 60vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -55,7 +56,7 @@ nav a{
     text-transform: uppercase;
     color: #000;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 1.2rem;
     position: relative;
 }
 
@@ -69,8 +70,8 @@ nav a:after {
     top: 110%;
     left: 0;
     width: 0;
-    height: 2px;
-    border-bottom: 2px solid #4458dc;
+    height: 0.1rem;
+    border-bottom: 0.15rem solid #4458dc;
     transition: all 0.3s linear;
 }
 
@@ -91,7 +92,7 @@ main {
 }
 
 .rightside img{
-    max-width: 500px;
+    max-width: 31rem;
     border-radius: 2rem;
     height: auto;
 }
@@ -102,34 +103,33 @@ main {
 }
 
 .leftside h3{
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 2.5rem;
+    margin-bottom: 1.4rem;
     position: relative;
 }
 
 
 .leftside h1{
-    margin-top: 20px;
-    font-size: 50px;
-    margin-bottom: 25px;
+    margin-top: 1.5rem;
+    font-size: 3.12rem;
+    margin-bottom: 2rem;
 }
 
 .leftside .btn0{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 14px;
+    font-size: 1rem;
     text-align: center;
-    padding: 12px 25px;
+    padding: 0.6rem 1.5rem;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     display: inline-block;
-    margin-right: 50px;
     color: #fff;
     letter-spacing: 0;
     background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%);
     border: double 2px transparent;
-    box-shadow: 0 10px 30px rgba(118, 85, 225, 0.3);
+    box-shadow: 0 0.5rem 1rem rgba(118, 85, 225, 0.3);
 }
 
 .leftside .btn0:hover{
@@ -166,28 +166,28 @@ main {
 }
 
 .column1 {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
     position: relative;
 }
 
 .column2 h3 {
-    font-size: 35px;
-    margin-bottom: 20px;
+    font-size: 2.2rem;
+    margin-bottom: 1.4rem;
     position: relative;
 }
 
 .column1 h3 {
-    font-size: 35px;
-    margin-bottom: 20px;
+    font-size: 2.2rem;
+    margin-bottom: 1.4rem;
     position: relative;
 }
 
 .column2 p {
-    font-size: 20px;
+    font-size: 1.25rem;
     justify-content: space-between;
     align-items: center;
-    padding-right: 100px;
+    padding-right: 6rem;
 }
 
 /* CP page */
@@ -201,33 +201,32 @@ main {
 }
 
 .column2 li {
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 550;
-    padding: 10px;
+    padding: 0.62rem;
 }
 
 .column1 li {
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 550;
-    padding: 10px;
+    padding: 0.62rem;
 }
 
 .column1 .btns {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 14px;
+    font-size: 1rem;
     text-align: center;
-    padding: 12px 25px;
+    padding: 0.6rem 1.5rem;
     cursor: pointer;
     border-radius: 0.5rem;
     display: inline-block;
-    margin-right: 50px;
     color: #fff;
     letter-spacing: 0;
     background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%);
     border: double 2px transparent;
-    box-shadow: 0 10px 30px rgba(118, 85, 225, 0.3);
+    box-shadow: 0 0.5rem 1rem rgba(118, 85, 225, 0.3);
 }
 
 .column1 .btns:hover {
@@ -246,157 +245,99 @@ main {
     background-image: linear-gradient(to right, #fff 80%, #f87ae3 20%);
 }
 
-.social-page-wrapper {
+.contact-container {
     display: flex;
     flex-direction: column;
-    text-align: left;
-    margin: 4rem;
+    height: 80vh;
+    width: auto;
 }
 
-.linked-in{
-    display: flex;
+.my-profiles {
+    text-transform: uppercase;
     justify-content: center;
-    padding-top: 2rem;
-}
-
-.social-page-wrapper div > a {
-    justify-content: center;
+    /* letter-spacing: 0.25rem; */
+    word-spacing: 1rem;
     text-align: center;
-    color: black;
-    padding: 2rem;
-    text-decoration: none;
-    text-transform: uppercase;
+    margin-bottom: 3rem;
+    background-image: linear-gradient(#8d98e3 40%, #854fee 60%);
+    color: #fff;
+    padding-left: 2rem;padding-right: 2rem;
+    border-radius: 1rem;
 }
 
-.linked-in .btns {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 14px;
-    text-align: center;justify-content: center;
-    padding: 12px 25px;
-    cursor: pointer;
-    border-radius: 0.5rem;
-    display: inline-block;
-    margin-left: 70px;
-    margin-top: 25px;margin-bottom: 25px;
-    color: #fff;
-    letter-spacing: 0;
-    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%);
-    border: double 2px transparent;
-    box-shadow: 0 30px 30px rgba(118, 85, 225, 0.3);
-}
-.git-hub .btns {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 14px;
-    text-align: center;justify-content: center;
-    padding: 12px 25px;
-    cursor: pointer;
-    border-radius: 0.5rem;
-    display: inline-block;
-    margin-left: 70px;
-    margin-top: 25px;margin-bottom: 25px;
-    color: #fff;
-    letter-spacing: 0;
-    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%);
-    border: double 2px transparent;
-    box-shadow: 0 30px 30px rgba(118, 85, 225, 0.3);
-}
-.facebook .btns {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 14px;
-    text-align: center;justify-content: center;
-    padding: 12px 25px;
-    cursor: pointer;
-    border-radius: 0.5rem;
-    display: inline-block;
-    margin-left: 70px;
-    margin-top: 25px;margin-bottom: 25px;
-    color: #fff;
-    letter-spacing: 0;
-    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%);
-    border: double 2px transparent;
-    box-shadow: 0 30px 30px rgba(118, 85, 225, 0.3);
-}
-.instagram .btns {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 14px;
-    text-align: center;justify-content: center;
-    padding: 12px 25px;
-    cursor: pointer;
-    border-radius: 0.5rem;
-    display: inline-block;
-    margin-left:70px;
-    margin-top: 25px;margin-bottom: 25px;
-    color: #fff;
-    letter-spacing: 0;
-    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%);
-    border: double 2px transparent;
-    box-shadow: 0 30px 30px rgba(118, 85, 225, 0.3);
+.four-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* margin-top: 1.5rem; */
 }
 
-.linked-in .btns:hover {
-    border: 2px solid #4458dc;
-    color: #222;
-    background-color: #fff;
-    box-shadow: none;
-    background-image: none;
-}
-.git-hub .btns:hover {
-    border: 2px solid #4458dc;
-    color: #222;
-    background-color: #fff;
-    box-shadow: none;
-    background-image: none;
-}
-.facebook .btns:hover {
-    border: 2px solid #4458dc;
-    color: #222;
-    background-color: #fff;
-    box-shadow: none;
-    background-image: none;
-}
-.instagram .btns:hover {
-    border: 2px solid #4458dc;
-    color: #222;
-    background-color: #fff;
-    box-shadow: none;
-    background-image: none;
-}
-
-.git-hub {
+.first-col {
+    margin: 1rem 6rem 2rem 6rem;
     display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-}
-.facebook {
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-}
-.instagram {
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
+    flex-direction: column;
 }
 
-.social-page-wrapper div > img {
+.second-col {
+    margin: 1rem 6rem 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-col {
+    margin: 2rem 6rem 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.forth-col {
+    margin: 2rem 6rem 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.four-box div >img {
     height: 6rem;
     width: 6rem;
 }
 
-.sc2 {
-    height: 80vh;
-    display: flex;
-    /* justify-content: space-around; */
-    align-items: left;
+.four-box div > a {
+    margin-top: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
 }
+
+.four-box .btns {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.6rem 0.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 0;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%);
+    border: double 2px transparent;
+    box-shadow: 0 10px 30px rgba(118, 85, 225, 0.3);
+}
+
+.four-box .btns:hover{
+    border: 2px solid #4458dc;
+    color: #222;
+    background-color: #fff;
+    box-shadow: none;
+    background-image: none;
+}
+
+.information {
+    text-align: center;
+    color: #000;
+    font-size: 0.8rem;
+}
+
 
 /* Gallery Page */
 
