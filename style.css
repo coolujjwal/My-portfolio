@@ -400,20 +400,20 @@ main {
     left: 50%;
     top: 60%;
     transform: translate(-50%,-50%);
-    background-image: url('P3.jpg');
+    background-image: url('./Images/P3.jpg');
     background-size: 100% 100%;
     animation: picture-change 20s infinite linear;
 }
 
 @keyframes picture-change {
     0%{
-        background-image: url('P3.jpg');
+        background-image: url('./Images/P3.jpg');
     }
     33%{
-        background-image: url('P4.jpg');
+        background-image: url('./Images/P4.jpg');
     }
     67%{
-        background-image: url('P5.jpg');
+        background-image: url('./Images/P5.jpg');
     }
 }
 
